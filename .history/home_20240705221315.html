@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <script defer src="home.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Lexend' rel='stylesheet'>
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Poppins:wght@100;200;300;600;900' rel='stylesheet'>
+<body>
+    <nav>
+        <div class="porker">
+        <a href="#about"id="abt">About Me</a> 
+        <a href="#prjct"id="pj">Projects</a> 
+        <button class="buttonNew" id="bnew">
+            <img src="darkness.png" alt="Project 1" class="darkness" >
+        </button>
+    </div>
+      </nav>
+    <section class="hidden">
+        <div class="intros">
+            <div class="intro1">
+                Hi.
+            </div>
+            <div class="intro2">
+                I'm Apurwa
+            </div>
+        </div>
+    </section>
+    <p id="about"></p>
+    <section class="hidden">
+        <div class="About" id="abt">
+            <div id="Title" class="abt hidden">
+                About Me
+            </div>
+            <div class="mepic">
+            <img src="apuface.png" alt="apuface" class="prof" >
+            </div>
+            <div id="box" class="abt hidden">
+                Welcome to my personal website. 
+                I am currently majoring in Computer Science and 
+                minoring in Statistics. I have a passion 
+                in learning about algorithms and mathematical modeling. I seek to extend my knowledge of computer science and math modeling to multiple service oriented sectors, including healthcare and in financial services. More specificially, I am interested in quantitative research and algorithm development. My favorite programming language is C++. The projects page in the navigation bar has links to all relevant projects that I have worked on. 
+            </div>
+    </section>
+    <p id="prjct"></p>
+    <section class="hidden" class="pjct" id="project">
+        <div class="About">
+            <div id="Title" class="abt hidden">
+                Projects
+            </div>
+            <div id="grd" class="abt hidden">
+                <div class="psect" id="pj1">
+                    <a href="https://bhurtyalkritan.github.io/MixNMath/beginner.html">
+                        <img src="mnmlogo.png" alt="Project 1" class="project-thumbnail" >
+                    </a>
+                    <p class="pname">MixNMath</p>
+                    <p class="pdesc" id="project3-description">
+                        Created a web application that tests your quantitative skills with numbers. The objective of the game is to make a target number using any or all digits depending on the difficulty mode.                    </p>
+                    <button class="toggle-description-button" onclick="toggleDescription('project3-description')>Close Description</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
