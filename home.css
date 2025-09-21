@@ -177,13 +177,13 @@ html {
     height: auto;
     cursor: pointer;
     height: 25vh;
-    width: 25h;
+    width: 25vh;
 
 }
 .mepic{
 border-radius: 100%;
-height:170px;
-width: 170px;
+height:25vh;
+width: 25vh;
 overflow: hidden;
 display: grid;
 justify-content:center;
@@ -276,4 +276,5 @@ border: 8px solid var(--col2);
     color: rgb(197, 197, 183);
     transition: color 0.5s;
 }
+
 
